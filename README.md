@@ -19,7 +19,16 @@ We proceed to the implementation of the poetry genre classification using GPT-3.
 ![image](https://github.com/aakarsh31/3-2/assets/89195418/365848a1-0abb-4b30-9aca-38ceec1ee9cc)
 
 
+
+
 The dataset was supplied to 4 different humans who would proceed to classify the poems into categories from the set of all GPT-generated poem classes. We take a final class of outputs by measuring the majority of poem genre/class. In cases where there is no appropriate majority, we get a completely new person for a 5th iteration of the conflicting poems. The person assigns poems to their classes from the set of 4 four classes of the initial 4 people. We acquire a majority in poem classification in all cases with this method. For comparison purposes, we use metrics like confusion matrix, accuracy, precision, and F1 Score. This leads us to the methodology for the calculation of the comparison metrics. 
+
+![image](https://github.com/aakarsh31/3-2/assets/89195418/a7a0f9dd-f17b-4fa6-940b-c82dffdd372a)
+
+[^Confusion matrix between the ground truth and GPT's classification^]
+
+
+
 
 ![image](https://github.com/aakarsh31/3-2/assets/89195418/505584b9-9cf8-405a-a7f3-619906da84ba)
 
