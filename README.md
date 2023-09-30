@@ -1,0 +1,1 @@
+This project aims to give definition to OpenAI’s ChatGPT chatbot from a poetic/opinion based sense of view. The main question we would like to ask here is that “Can GPT duplicate the responses of humans in areas of little statistic knowledge and more of human opinion based domains like sentimental analysis or poetic analysis and classification?”. 
