@@ -2,7 +2,7 @@ import pandas as pd
 import openai
 
 # Configure your OpenAI API key
-openai.api_key = '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'
+openai.api_key = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 
 def generate_review(poem):
     # Define the prompt for the OpenAI API
