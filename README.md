@@ -16,21 +16,21 @@ DAN enchances Chatbots capability of producing outputs. DAN has the ability to g
 
 We proceed to the implementation of the poetry genre classification using GPT-3.5. We use a model that is better for our purposes as we mentioned earlier. GPT-3.5 davinci-001 is used for the purpose of this experiment. We first use various trial and error, prompt testing iterations to get accustomed to multiple  parameters for the Language model to generate outputs that are accurate and according to our needs. We start with temperature and then proceed with top_P and lastly, we explore some prompts that enhance our required output.
 
-![image](https://github.com/aakarsh31/3-2/assets/89195418/365848a1-0abb-4b30-9aca-38ceec1ee9cc)
+![image](https://github.com/aakarsh31/Identifying-and-Criticizing-GPT-3.5-Performance/assets/89195418/172940ab-840e-4517-836c-8360dfe2acca)
 
 
 
 
 The dataset was supplied to 4 different humans who would proceed to classify the poems into categories from the set of all GPT-generated poem classes. We take a final class of outputs by measuring the majority of poem genre/class. In cases where there is no appropriate majority, we get a completely new person for a 5th iteration of the conflicting poems. The person assigns poems to their classes from the set of 4 four classes of the initial 4 people. We acquire a majority in poem classification in all cases with this method. For comparison purposes, we use metrics like confusion matrix, accuracy, precision, and F1 Score. This leads us to the methodology for the calculation of the comparison metrics. 
 
-![image](https://github.com/aakarsh31/3-2/assets/89195418/a7a0f9dd-f17b-4fa6-940b-c82dffdd372a)
+![image](https://github.com/aakarsh31/Identifying-and-Criticizing-GPT-3.5-Performance/assets/89195418/07bc98ba-f20b-4e40-b9d7-cadeac097831)
 
 [^Confusion matrix between the ground truth and GPT's classification^]
 
 
 
 
-![image](https://github.com/aakarsh31/3-2/assets/89195418/505584b9-9cf8-405a-a7f3-619906da84ba)
+![image](https://github.com/aakarsh31/Identifying-and-Criticizing-GPT-3.5-Performance/assets/89195418/25345f8f-6bbe-4a6e-b419-edd673af8371)
 
 
 Although Chat-GPT falls behind a slight bit as compared to human observation, it still boasts an impressive score which shows it is nothing short of an average Human when it comes to classifying these poems. Ultimately every human’s opinion on anything is purely subjective to their own experience and expertise. The GPT model has revolutionized the way the World works, and with these observations we can clearly understand how it does have the ability to agree to the majority of human opinion. To conclude, this goes to show the model just represents the tip of the iceberg when it comes to truly creating a sense of  “Human Mimicry” in all aspects of our lives, and how achieving such a task is not far off into the future.
